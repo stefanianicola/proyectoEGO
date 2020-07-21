@@ -1,0 +1,21 @@
+<div class="modelos animated fadeIn">
+  <h1>Descubri todos los modelos</h1>
+  <div>
+    <p>FILTROS</p>
+  </div>
+  <div class="row autos">
+    <div *ngFor="let auto of autos" class="card col-12 col-md-4 col-lg-3">
+      <div class="card-body">
+        <h5 class="card-title">{{ auto.name }}</h5>
+        <p class="card-text"><small class="text-muted"> {{auto.year}} | ${{ auto.price }}</small></p>
+      </div>
+      <img src='../../assets/models/{{auto.photo}}'  class="card-img-top" alt="...">
+      
+      <div class="btn-container">
+        <a [routerLink]="['/ficha/',auto.id]" class="btn badge badge-pill badge-dark">Ver Modelo</a>
+      </div>
+      
+    </div>
+  </div>
+
+</div>

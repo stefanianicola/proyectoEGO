@@ -1,0 +1,79 @@
+<nav class="navbar">
+    <a class="navbar-brand" [routerLink]="['/home']">
+        <img src="../../../../assets/navbar/logo.svg" class="Logo">
+    </a>
+
+    <button 
+    class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        Menú<img src="../../../../assets/navbar/gray.svg" class="Gray img-burguer">
+    </button>
+
+    <button class="navbar-toggler d-none" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        Cerrar<img src="../../../../assets/navbar/fill-1.svg" class="Gray img-burguer">
+    </button>
+    <div class="collapse navbar-collapse col-3 offset-col-9 p-0" id="navbarSupportedContent">
+
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" [routerLink]="['/modelos']">Modelos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Servicios y Accesorios</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Financiación</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Reviews y Comunidad</a>
+            </li>
+        </ul>
+
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Toyota Mobility Service</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Toyota Gazoo Racing</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Toyota Híbridos</a>
+            </li>
+        </ul>
+
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Concesionarios</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Test Drive</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+            </li>
+        </ul>
+
+        <ul class="navbar-nav mr-auto foot-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Actividades</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Servicios al Cliente</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Ventas Especiales</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Innovación</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Prensa</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Acerca de...</a>
+            </li>
+        </ul>
+
+    </div>
+</nav>

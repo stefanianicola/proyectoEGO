@@ -1,0 +1,40 @@
+.ficha {
+    font-family: 'Montserrat', sans-serif;
+    margin: 70px 0 50px 0;
+    color:#373737;
+    img {
+        width: 100%;
+    }
+    p{
+        font-weight: 500;
+        margin-top: 50px;
+    }
+    h2 {
+        color: #191919;
+        font-size: 35px;
+        font-weight: 600;
+        margin: 30px 0;
+    }
+
+    .slide-features {
+        margin: 40px 0;
+        .card {
+            border: none;
+        }
+    }
+
+    .description {
+        margin-bottom: 30px;
+        .high-title{
+            font-size: 20px;
+            font-weight: 500;
+        }
+    }
+
+    .initial-description,
+    .high-description {
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+}
