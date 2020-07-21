@@ -17,6 +17,7 @@ export class CarService {
 
     }
 
+    //metodos para traer info de la api
     getCars(){
      return  this.http.get(`${ this.url }`);
     }
